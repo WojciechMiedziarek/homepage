@@ -1,0 +1,28 @@
+body {
+    background-color: #d0d1d3;
+}
+
+h1 {
+    color:brown;
+}
+
+h2 {
+    color:#1460AA;
+}
+
+h3 {
+color:darkgoldenrod;
+}
+
+article {
+    color:darkslategray;
+}
+
+#top {
+background-color: cadetblue;
+
+}
+
+.special-heading {
+    color: rgb(53, 250, 3) ;
+}
