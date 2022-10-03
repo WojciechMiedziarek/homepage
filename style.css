@@ -1,28 +1,53 @@
 body {
-    background-color: #d0d1d3;
+  background-color: #d0d1d3;
 }
 
 h1 {
-    color:rgb(223, 20, 20);
+  color: rgb(38, 19, 121);
+  min-width: 200px;
+  max-width: 250px;
+  background-color: rgb(255, 241, 46);
+  border-radius: 10px;
+
 }
 
 h2 {
-    color:#1460AA;
+  color: #1460aa;
 }
 
 h3 {
-color:darkgoldenrod;
+  color: darkgoldenrod;
 }
 
 article {
-    color:darkslategray;
-}
-
-#top {
-background-color: cadetblue;
-
+  color: darkslategray;
 }
 
 .special-heading {
-    color: rgb(240, 21, 112) ;
+  color: rgb(18, 120, 229);
+}
+
+.navigation {
+  background-color: rgb(103, 83, 212);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.navigation__link {
+  background-color: rgb(232, 228, 19);
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 20px;
+
+}
+
+.nowe_logo {
+  margin-bottom: 70px;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 15px;
+}
+
+.opis_zlobka {
+  background-color: rgb(237, 227, 149);
 }
