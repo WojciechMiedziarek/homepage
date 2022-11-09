@@ -11,3 +11,4 @@ console.log(cofee);
 console.log(
   `Cześć mam na imię ${firstName} a mój wiek to ${age} lata. Lubię pić ${cofee}. Uczę się programować, żeby mimo mojego wieku, który wynosi ${age} lata, móc zmienić zawód i powiedzieć sobie ${firstName} udało Ci się.`
 );
+

@@ -2,12 +2,13 @@ body {
   background-color: #d0d1d3;
 }
 
-h1 {
+.main__header {
   color: rgb(38, 19, 121);
   min-width: 200px;
   max-width: 250px;
   background-color: rgb(255, 241, 46);
   border-radius: 10px;
+  
 
 }
 
@@ -41,13 +42,25 @@ article {
 
 }
 
-.nowe_logo {
-  margin-bottom: 70px;
+.header__photo {
+
+  margin-bottom: 2px;
   max-width: 200px;
   max-height: 200px;
   border-radius: 15px;
+  
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
 }
 
 .opis_zlobka {
   background-color: rgb(237, 227, 149);
+}
+
+.body {
+    max-width: 1000px;
 }
