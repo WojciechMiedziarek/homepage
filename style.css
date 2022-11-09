@@ -42,7 +42,7 @@ article {
 
 }
 
-.header__photo {
+.header__main--photo {
 
   margin-bottom: 2px;
   max-width: 200px;
@@ -57,7 +57,7 @@ article {
   justify-content: space-around;
 }
 
-.opis_zlobka {
+.section__title {
   background-color: rgb(237, 227, 149);
 }
 
