@@ -12,26 +12,29 @@
   <body class="body">
     <header>
       <nav class="navigation">
-        <a class="navigation__link navigation__link--index" href="index.html">Strona główna</a>
+        <a class="navigation__link navigation__link--index" href="index.html"
+          >Strona główna</a
+        >
         <a class="navigation__link" href="o-nas.html">O nas</a>
         <a class="navigation__link" href="organizacja-pracy.html"
-          >Organizacja pracy</a>
+          >Organizacja pracy</a
+        >
         <a class="navigation__link" href="nasze-zobowiazanie.html"
-          >Nasze zobowiązanie</a>
+          >Nasze zobowiązanie</a
+        >
         <a class="navigation__link" href="cennik.html">Cennik</a>
         <a class="navigation__link" href="kontakt.html">Kontakt</a>
       </nav>
     </header>
+
     <main class="main">
       <header class="header__main">
-        
         <img
-        class="header__main--photo"
-        src="nowe_logo.jpg"
-        alt="Logo Naprawdę Blisko. Logo kolorowych stópek."/>
+          class="header__main--photo"
+          src="nowe_logo.jpg"
+          alt="Logo Naprawdę Blisko. Logo kolorowych stópek."
+        />
       </header>
-  
-
       <section>
         <h1 class="section__title">Kontakt</h1>
 
@@ -39,8 +42,47 @@
           Nr tel 111-222-333 <br />
           Mail: jatonie@gmail.com
         </p>
+
       </section>
+
+
+      
+      <form class="form">
+        <p>
+          <label for="firstName">Imię</label>
+          <input class="form__input" placeholder="Wpisz swoje imię" type="text" name="firstName" id="firstName" />
+        </p>
+
+        
+        <p>
+          <label for="surname">Nazwisko</label>
+          <input class="form__input" placeholder="Wpisz swoje nazwisko" name="surname" id="surname" />
+        </p>
+      </form>
+
+      <fieldset class="form">
+        <legend>
+          Adress </legend>
+          <p>
+            <label for="adress">Adres</label>
+            <input class="form__input" placeholder="Wpisz swój adres" name="adres" id="adres" />
+          </p>
+      </fieldset>
+      
+
+      
+      <fieldset class="form">
+        <legend>
+          Adress </legend>
+          <p>
+        
+            <input class="form__input" type="radio" placeholder="Wpisz swój adres" name="adres" id="adres" />
+          </p>
+      </fieldset>
+
+
     </main>
+
     <footer class="footer">
       Małgorzata i Wojciech Miedziarek "Żłobek inny niż wszystkie"
       <a href="#top">Wróć na górę strony</a>
