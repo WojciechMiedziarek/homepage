@@ -54,6 +54,20 @@ justify-content: center;
 
 }
 
+.navigation__link:hover {
+color:#30ce00;
+
+}
+
+.navigation__link:visited {
+  color: null
+  
+  }
+
+  .navigation__link:focus {
+     border: 5px solid #d32ab1;
+    
+    }
 .header__main--photo {
 
   margin-bottom: 2px;
@@ -73,6 +87,10 @@ justify-content: center;
   background-color: rgb(237, 227, 149);
 }
 
+.section:hover{
+  background-color: #d32ab1;
+}
+
 .main {
     max-width: 1000px;
 margin: 0 auto;
@@ -87,6 +105,20 @@ margin: 0 auto;
 background-color: aliceblue;
 
 }
+
+.footer::before{
+  content: "";
+  display:inline-block;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #30ce00;
+
+}
+.footer::after{
+  content: "GOODBYE";
+}
+
 .form{
   display: flex;
   justify-content: center;
